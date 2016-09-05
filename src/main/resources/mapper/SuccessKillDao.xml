@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.seckill.dao.SuccessKillDao">
+    <insert id="insetIntoSuccessKill">
+        insert into success_kill(seckill_id,user_phone) VALUES (#{secKillId},#{userPhone})
+    </insert>
+    <!--<select id="queryByIdWithSecKill" resultType="">
+
+    </select>-->
+</mapper>
